@@ -1,0 +1,118 @@
+.home-container {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  height: 10%;
+  min-height: fit-content;
+  background-color: rgb(3, 21, 41);
+  height: 60vh;
+}
+.home-parent {
+  display: flex;
+  align-items: center;
+  color: aliceblue;
+}
+.details-name {
+  font-size: 24px;
+  font-family: "Poppins SemiBold";
+}
+.details-role {
+  display: flex;
+  flex-direction: column;
+  margin: 14px 0 24px 0;
+}
+.details-role h1 {
+  font-size: 40px;
+  font-family: cursive;
+}
+.tagline {
+  font-size: 20px;
+  margin: 5px 0 0 0;
+  font-family: "Poppins Light";
+}
+.primary-btn {
+  color: white;
+  border: 2px solid linen;
+  padding: 10px 20px;
+  font-size: 12px;
+  font-weight: 700;
+  background-color: midnightblue;
+  border-radius: 10px;
+  margin: 0 15px;
+}
+.primary-btn:hover {
+  color: black;
+  background-color: white;
+  border: 2px solid orange;
+}
+.profile-picture img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  height: 390px;
+  width: 310px;
+  box-shadow: 0 2px 0px 0px white;
+}
+
+@media screen and (max-width: 1110px) {
+  .profile-picture {
+    margin: 0 0px 0 80px;
+  }
+  .details-name {
+    font-size: 20px;
+  }
+  .details-role .primary-text {
+    font-size: 12px;
+  }
+  .options .btn {
+    width: 120px;
+    padding: 11px 0;
+    z-index: 700;
+  }
+}
+@media screen and (max-width: 910px) {
+  .profile-picture img {
+    margin: 0 0 0 4px;
+  }
+}
+@media screen and (max-width: 810px) {
+  .profile-picture img {
+    margin: 0 !important;
+  }
+  .home-parent {
+    flex-direction: column-reverse;
+    margin: 40px 0 0 0;
+  }
+  .options {
+    display: flex;
+    justify-content: space-between;
+  }
+  .details {
+    margin: 25px 0 0;
+  }
+  .options .primary-btn {
+    margin: 0 !important;
+  }
+  .options,
+  .details-role {
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .home-container {
+    height: 110vh;
+  }
+  .profile-picture img {
+    height: 275px;
+    width: 220px;
+
+    margin-top: -90px;
+    margin-right: 20px;
+  }
+  .details {
+    width: 90%;
+  }
+}
