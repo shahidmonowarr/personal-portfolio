@@ -14,7 +14,8 @@ const ContactMe = () => {
           e.target.reset();
       };
     return (
-        <div className="container">
+        <div className="container" id="contact">
+            <h1>Try To Connect with Me</h1>
            <form onSubmit={sendEmail}>
                <div className="row pt-5 mx-auto">
                 <div className="col-8 form-group mx-auto">

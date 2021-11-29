@@ -3,9 +3,12 @@ import Typical from 'react-typical';
 import './Home.css';
 import profile from '../../../images/profile.png';
 import ContactMe from '../ContactMe/ContactMe';
+import Projects from '../../Projects/Projects';
+import Header from '../../../Shared/Header/Header';
 const Home = () => {
     return (
         <div>
+            <Header></Header>
             <div className="home-container">
             <div className="home-parent">
                 <div className="details">
@@ -66,6 +69,7 @@ const Home = () => {
 
             
         </div>
+        <Projects></Projects>
         <ContactMe></ContactMe>
         </div>
     );
