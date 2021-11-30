@@ -22,7 +22,7 @@ const ContactMe = () => {
         <div className="container" id="contact">
             <h1 class='text-white text-center p-4'>CONTACT ME</h1>
             <form onSubmit={sendEmail}>
-                <div className="row pt-2 mx-auto">
+                <div className="row pt-2 mx-auto text-center">
                     <div data-aos="fade-up" className="col-8 form-group mx-auto">
                         <input type="text" className="form-control" placeholder="Name" name="name" />
                     </div>

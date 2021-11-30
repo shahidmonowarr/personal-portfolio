@@ -8,13 +8,15 @@ import Header from '../../../Shared/Header/Header';
 import AboutMe from '../AboutMe/AboutMe';
 import Aos from 'aos';
 import 'aos/dist/aos.css';
+import Skills from '../../Skills/Skills';
 
 const Home = () => {
     useEffect(() => {
         Aos.init({ duration: 3000 });
-    }, [])
+    }, []);
+
     return (
-        <div className="project-section">
+        <div className="project-section" id="home">
             <Header></Header>
             <div className="home-container">
                 <div className="home-parent">
@@ -75,8 +77,9 @@ const Home = () => {
                 </div>
             </div>
             <Projects></Projects>
-            <ContactMe></ContactMe>
+            <Skills></Skills>
             <AboutMe></AboutMe>
+            <ContactMe></ContactMe>
         </div>
     );
 };

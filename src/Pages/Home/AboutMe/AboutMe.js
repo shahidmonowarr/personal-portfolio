@@ -16,7 +16,7 @@ const AboutMe = () => {
                         <img width='50%' src={profile} alt="" />
                     </div>
                     <div data-aos="flip-down"
-                        className="col-lg-6 d-flex justify-content-center">
+                        className="col-lg-6 d-flex text-center justify-content-center">
                         <div>
                             <p class="fs-5 text-white">I'm Md. Shahid Monowar, a front-end web developer. I am proficient with HTML5, CSS3, Bootstrap, ES6, JavaScript, React JS, and also server-side node.js, express.js, MongoDB. As a developer, I love taking challenges and love being part of the solution.
                             </p>
