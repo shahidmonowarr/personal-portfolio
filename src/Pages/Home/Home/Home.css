@@ -5,8 +5,7 @@
   justify-content: center;
   height: 10%;
   min-height: fit-content;
-  background-color: rgb(3, 21, 41);
-  height: 60vh;
+  height: 70vh;
 }
 .home-parent {
   display: flex;
