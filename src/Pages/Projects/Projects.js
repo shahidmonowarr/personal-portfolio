@@ -1,15 +1,17 @@
 import React, { useEffect } from 'react';
 import './Projects.css'
-import bike from '../../images/bike-store.png'
-import medical from '../../images/medipharma-health-care.png'
-import travel from '../../images/travel-booking-website.png'
+import bike from '../../images/React App - bike-store-fdfe8.web.png'
+import medical from '../../images/React App - medipharma-health-care.web.png'
+import travel from '../../images/React App - travel-booking-website-b1db8.web.png'
 import Aos from 'aos';
 import 'aos/dist/aos.css';
+import { Link } from 'react-router-dom';
 
 const Projects = () => {
     useEffect(() => {
         Aos.init({ duration: 3000 });
-    }, [])
+    }, []);
+
     return (
         <div className="project-section" id="project">
             <div className="container p-4">
@@ -25,6 +27,10 @@ const Projects = () => {
                                 <a target="_blank" className="text-info" href="https://github.com/shahidmonowarr/Bike-store-website-client-side">
                                     <span ><i class="fab fa-github profile-icon"></i>Github</span>
                                 </a>
+                                <hr />
+                                <Link to='/bike'>
+                                    <button className='details-btn'>Details</button>
+                                </Link>
                             </div>
                         </div>
 
@@ -39,6 +45,10 @@ const Projects = () => {
                                 <a target=" _blank" className="text-info" href="https://github.com/shahidmonowarr/Travel-booking-website-client-side">
                                     <span ><i class="fab fa-github profile-icon"></i>Github</span>
                                 </a>
+                                <hr />
+                                <Link to='/travel'>
+                                    <button className='details-btn'>Details</button>
+                                </Link>
                             </div>
                         </div>
 
@@ -53,6 +63,10 @@ const Projects = () => {
                                 <a target="_blank" className="text-info" href="https://github.com/shahidmonowarr/Medi-pharma">
                                     <span ><i class="fab fa-github profile-icon"></i>Github</span>
                                 </a>
+                                <hr />
+                                <Link to='/pharma'>
+                                    <button className='details-btn'>Details</button>
+                                </Link>
                             </div>
                         </div>
 

@@ -6,27 +6,34 @@ import {
   Route
 } from "react-router-dom";
 import Blogs from './Pages/Blogs/Blogs';
+import Bike from './Pages/Bike/Bike';
+import Pharma from './Pages/Pharma/Pharma';
+import Travel from './Pages/Travel/Travel';
 
 function App() {
   return (
-    <div className="App">
-      <Router>
-        <Switch>
-          <Route path="/">
-            <Home></Home>
-          </Route>
-          <Route path="/home">
-            <Home></Home>
-          </Route>
-          <Route path="/blogs">
-            <Blogs></Blogs>
-          </Route>
-          <Route path="/">
-            <Home />
-          </Route>
-        </Switch>
-      </Router>
-    </div>
+    <Router>
+      <Switch>
+        <Route exact path="/">
+          <Home></Home>
+        </Route>
+        <Route path="/home">
+          <Home></Home>
+        </Route>
+        <Route path="/blogs">
+          <Blogs></Blogs>
+        </Route>
+        <Route path="/bike">
+          <Bike></Bike>
+        </Route>
+        <Route path="/pharma">
+          <Pharma></Pharma>
+        </Route>
+        <Route path="/travel">
+          <Travel></Travel>
+        </Route>
+      </Switch>
+    </Router>
   );
 }
 

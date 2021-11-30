@@ -1,0 +1,29 @@
+[
+    {
+        "_id": "616d35c9ed4897e7459c6c28",
+        "index": 0,
+        "picture1": "https://i.ibb.co/fD7WSf5/bike-store-bikes.png",
+        "picture2": "https://i.ibb.co/LkBC4Y1/bike-store-cover.png",
+        "picture3": "https://i.ibb.co/Jd1GcRx/bike-store-customer-review.png",
+        "name": "Bike Zone",
+        "description": "Bike Zone is a full-stack and responsive website for bike lovers. Users can order different types of bikes and also can see detailed info on bikes from the website. The dashboard is available for both the User and Admin. Users can see their own order list and also can cancel an order. Admin can add an admin, manage product delete or update and can confirm an order"
+    },
+    {
+        "_id": "616d35c903a60db24814f205",
+        "index": 1,
+        "picture1": "https://i.ibb.co/JcW8rSV/medipharma-health-care-services.png",
+        "picture2": "https://i.ibb.co/grHpymX/medipharma-health-care-Blog.png",
+        "picture3": "https://i.ibb.co/SxbLNLM/medipharma-health-care-questions.png",
+        "name": "Medi Pharma",
+        "description": "Medi Pharma is a responsive e-medicine website. Users can find their medicine, vaccine, medical consultation, and doctor receipt from this website. The main features of Medi Pharma are firebase email password and google login authentication."
+    },
+    {
+        "_id": "616d35c9687d0a1a70cc402f",
+        "index": 2,
+        "picture1": "https://i.ibb.co/h2ZcTCz/travel-booking-website-header.png",
+        "picture2": "https://i.ibb.co/dBbrZM6/travel-booking-website-offer.png",
+        "picture3": "https://i.ibb.co/C9s38dx/travel-booking-website-packages.png",
+        "name": "Travel Mate",
+        "description": "Travel Mate is a full-stack and responsive travel booking site for travelers. Users can check their desired travel location, cost of the package and can book their particular package from this website. The authentication system of Travel Mate is firebase google login authentication."
+    }
+]

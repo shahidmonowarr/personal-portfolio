@@ -3,3 +3,15 @@
     background: -webkit-linear-gradient(to right, #240b27, #26113b); 
     background: linear-gradient(to right, #231425, #300758);
 }
+.details-btn{
+    background-color: rgb(197, 85, 85);
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    border-radius: 4px;
+    border: none;
+    text-transform: uppercase;
+}
+.details-btn:hover{
+    background-color: rgb(47, 68, 107);
+    color: white;
+}
