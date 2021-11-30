@@ -27,6 +27,9 @@ const Projects = () => {
                                 <a target="_blank" className="text-info" href="https://github.com/shahidmonowarr/Bike-store-website-client-side">
                                     <span ><i class="fab fa-github profile-icon"></i>Github</span>
                                 </a>
+                                <a target="_blank" className=" ps-1 text-info" href="https://bike-store-fdfe8.web.app/">
+                                    <span ><i class="fab fa-github profile-icon"></i>Live site</span>
+                                </a>
                                 <hr />
                                 <Link to='/bike'>
                                     <button className='details-btn'>Details</button>
@@ -45,6 +48,9 @@ const Projects = () => {
                                 <a target=" _blank" className="text-info" href="https://github.com/shahidmonowarr/Travel-booking-website-client-side">
                                     <span ><i class="fab fa-github profile-icon"></i>Github</span>
                                 </a>
+                                <a target=" _blank" className="ps-1 text-info" href="https://travel-booking-website-b1db8.web.app/">
+                                    <span ><i class="fab fa-github profile-icon"></i>Live Site</span>
+                                </a>
                                 <hr />
                                 <Link to='/travel'>
                                     <button className='details-btn'>Details</button>
@@ -62,6 +68,9 @@ const Projects = () => {
                                 <hr />
                                 <a target="_blank" className="text-info" href="https://github.com/shahidmonowarr/Medi-pharma">
                                     <span ><i class="fab fa-github profile-icon"></i>Github</span>
+                                </a>
+                                <a target="_blank" className="ps-1 text-info" href="https://medipharma-health-care.web.app/">
+                                    <span ><i class="fab fa-github profile-icon"></i>Live Site</span>
                                 </a>
                                 <hr />
                                 <Link to='/pharma'>
