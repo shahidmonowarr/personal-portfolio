@@ -52,13 +52,12 @@
   border-radius: 50%;
   height: 390px;
   width: 310px;
+  margin: 0 0px 0 80px;
   box-shadow: 0 2px 0px 0px white;
 }
 
 @media screen and (max-width: 1110px) {
-  .profile-picture {
-    margin: 0 0px 0 80px;
-  }
+  
   .details-name {
     font-size: 20px;
   }

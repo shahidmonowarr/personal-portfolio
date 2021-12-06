@@ -24,10 +24,10 @@ const Projects = () => {
                                 <h5 className="card-title text-light">Bike Shop</h5>
                                 <p className="card-text text-light">Bike Zone is a full-stack and responsive website for bike lovers.</p>
                                 <hr />
-                                <a target="_blank" className="text-info" href="https://github.com/shahidmonowarr/Bike-store-website-client-side">
+                                <a target="_blank" className="text-info text-decoration-none" href="https://github.com/shahidmonowarr/Bike-store-website-client-side">
                                     <span ><i class="fab fa-github profile-icon"></i>Github</span>
                                 </a>
-                                <a target="_blank" className=" ps-1 text-info" href="https://bike-store-fdfe8.web.app/">
+                                <a target="_blank" className=" ps-2 text-info text-decoration-none" href="https://bike-store-fdfe8.web.app/">
                                     <span ><i class="fab fa-github profile-icon"></i>Live site</span>
                                 </a>
                                 <hr />
@@ -41,14 +41,14 @@ const Projects = () => {
                     <div className="col ">
                         <div data-aos="zoom-in" className="card h-100 bg-secondary p-2">
                             <img src={travel} className="card-img-top" alt="" />
-                            <div className="card-body">
+                            <div className="card-body ">
                                 <h5 className="card-title text-light">Travel Booking</h5>
                                 <p className="card-text text-light">Travel Mate is a full-stack and responsive travel booking site for travelers.</p>
                                 <hr />
-                                <a target=" _blank" className="text-info" href="https://github.com/shahidmonowarr/Travel-booking-website-client-side">
+                                <a target=" _blank" className="text-info text-decoration-none" href="https://github.com/shahidmonowarr/Travel-booking-website-client-side">
                                     <span ><i class="fab fa-github profile-icon"></i>Github</span>
                                 </a>
-                                <a target=" _blank" className="ps-1 text-info" href="https://travel-booking-website-b1db8.web.app/">
+                                <a target=" _blank" className="ps-2 text-info text-decoration-none" href="https://travel-booking-website-b1db8.web.app/">
                                     <span ><i class="fab fa-github profile-icon"></i>Live Site</span>
                                 </a>
                                 <hr />
@@ -66,10 +66,10 @@ const Projects = () => {
                                 <h5 className="card-title text-light">Medi Pharma</h5>
                                 <p className="card-text text-light">Medi Pharma is a responsive e-medicine website.</p>
                                 <hr />
-                                <a target="_blank" className="text-info" href="https://github.com/shahidmonowarr/Medi-pharma">
+                                <a target="_blank" className="text-info text-decoration-none" href="https://github.com/shahidmonowarr/Medi-pharma">
                                     <span ><i class="fab fa-github profile-icon"></i>Github</span>
                                 </a>
-                                <a target="_blank" className="ps-1 text-info" href="https://medipharma-health-care.web.app/">
+                                <a target="_blank" className="ps-2 text-info text-decoration-none" href="https://medipharma-health-care.web.app/">
                                     <span ><i class="fab fa-github profile-icon"></i>Live Site</span>
                                 </a>
                                 <hr />

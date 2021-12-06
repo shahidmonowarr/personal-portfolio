@@ -22,14 +22,14 @@ const Home = () => {
                 <div className="home-parent">
                     <div data-aos="fade-down-right" className="details">
                         <div className="column">
-                            <div className="column-icon ">
-                                <a className="p-1" href="https://www.facebook.com/profile.php?id=100008694737634">
+                            <div >
+                                <a className="p-1 fs-4 text-white" href="https://www.facebook.com/profile.php?id=100008694737634">
                                     <i class="fab fa-facebook-square"></i>
                                 </a>
-                                <a className="p-1" href="https://www.linkedin.com/in/shahid-monowar-/">
+                                <a className="p-1 fs-4 text-white" href="https://www.linkedin.com/in/shahid-monowar-/">
                                     <i class="fab fa-linkedin"></i>
                                 </a>
-                                <a className="p-1" href="https://github.com/shahidmonowarr">
+                                <a className="p-1 fs-4 text-white" href="https://github.com/shahidmonowarr">
                                     <i class="fab fa-github"></i>
                                 </a>
                             </div>

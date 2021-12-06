@@ -20,7 +20,7 @@ const AboutMe = () => {
                         <div>
                             <p class="fs-5 text-white">I'm Md. Shahid Monowar, a front-end web developer. I am proficient with HTML5, CSS3, Bootstrap, ES6, JavaScript, React JS, and also server-side node.js, express.js, MongoDB. As a developer, I love taking challenges and love being part of the solution.
                             </p>
-                            <div className="options"><a href="FinalResume.pdf" download="Final Resume.pdf"><button className="btn primary-btn">Get Resume</button></a>
+                            <div className="mx-auto"><a href="FinalResume.pdf" download="Final Resume.pdf"><button className="btn primary-btn">Get Resume</button></a>
                             </div>
                         </div>
                     </div>
