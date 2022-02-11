@@ -16,7 +16,7 @@ const Skills = () => {
                         I am expertise on web development in this skills.
                     </p>
                 </div>
-                <Row className="px-2">
+                <Row className="px-2 skills">
                     <Col data-aos="fade-right" xs={12} md={12} lg={6} className="pe-5 first-col">
                         <div className="my-progress">
                             <h5 className="text-white">Html</h5>
