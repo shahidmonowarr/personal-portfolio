@@ -9,6 +9,7 @@ import Blogs from './Pages/Blogs/Blogs';
 import Bike from './Pages/Bike/Bike';
 import Pharma from './Pages/Pharma/Pharma';
 import Travel from './Pages/Travel/Travel';
+import Foodsense from './Pages/Foodsense/Foodsense';
 
 function App() {
   return (
@@ -28,6 +29,9 @@ function App() {
         </Route>
         <Route path="/pharma">
           <Pharma></Pharma>
+        </Route>
+        <Route path="/foodsense">
+          <Foodsense></Foodsense>
         </Route>
         <Route path="/travel">
           <Travel></Travel>

@@ -9,6 +9,7 @@ import AboutMe from '../AboutMe/AboutMe';
 import Aos from 'aos';
 import 'aos/dist/aos.css';
 import Skills from '../../Skills/Skills';
+import Footer from '../../../Shared/Footer/Footer';
 
 const Home = () => {
     useEffect(() => {
@@ -80,6 +81,7 @@ const Home = () => {
             <Skills></Skills>
             <AboutMe></AboutMe>
             <ContactMe></ContactMe>
+            <Footer></Footer>
         </div>
     );
 };

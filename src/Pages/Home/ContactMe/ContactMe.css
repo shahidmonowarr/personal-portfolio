@@ -4,6 +4,10 @@
    padding-bottom: 3rem;
 }
 
+.contact_content{
+    overflow: hidden;
+}
+
 .contact_title{
     color: darkorange;
     text-align: center;

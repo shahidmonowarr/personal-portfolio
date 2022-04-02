@@ -3,6 +3,33 @@
     background: -webkit-linear-gradient(to right, #240b27, #26113b); 
     background: linear-gradient(to right, #231425, #300758);
 }
+.box{
+    height: 250px;
+    background-size: cover;
+    background-position: top;
+    transition: ease-in-out 6s;
+}
+
+.box.box1{
+    background: url('https://i.ibb.co/CBGLmjS/Fire-Shot-Capture-005-Bike-Store.png');
+    background-size: cover;
+}
+.box.box2{
+    background: url('https://i.ibb.co/HX3wRp1/Fire-Shot-Capture-007-React-App-travel-booking-website-b1db8-web-app.png');
+    background-size: cover;
+}
+.box.box3{
+    background: url('https://i.ibb.co/304vnqR/foodsense.png');
+    background-size: cover;
+}
+.box:hover{
+    background-position: bottom;
+}
+
+.project-section img:hover{
+ background-position: bottom;
+ 
+}
 .details-btn{
     background-color: rgb(197, 85, 85);
     color: rgb(255, 255, 255);
