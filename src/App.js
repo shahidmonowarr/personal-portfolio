@@ -10,9 +10,12 @@ import Bike from './Pages/Bike/Bike';
 import Pharma from './Pages/Pharma/Pharma';
 import Travel from './Pages/Travel/Travel';
 import Foodsense from './Pages/Foodsense/Foodsense';
+import BackToTop from './Pages/BackToTop/BackToTop';
 
 function App() {
   return (
+    <div >
+      <BackToTop></BackToTop>
     <Router>
       <Switch>
         <Route exact path="/">
@@ -38,6 +41,7 @@ function App() {
         </Route>
       </Switch>
     </Router>
+    </div>
   );
 }
 

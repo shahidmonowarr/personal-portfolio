@@ -15,6 +15,7 @@ const Home = () => {
     useEffect(() => {
         Aos.init({ duration: 3000 });
     }, []);
+    
 
     return (
         <div className="project-section" id="home">
@@ -32,6 +33,12 @@ const Home = () => {
                                 </a>
                                 <a className="p-1 fs-4 text-white" href="https://github.com/shahidmonowarr">
                                     <i class="fab fa-github"></i>
+                                </a>
+                                <a className="p-1 fs-4 text-white" href="https://t.me/shahidmonowar">
+                                    <i class="fab fa-telegram"></i>
+                                </a>
+                                <a className="p-1 fs-4 text-white" href="https://twitter.com/ShahidMonowar">
+                                    <i class="fab fa-twitter"></i>
                                 </a>
                             </div>
                         </div>
@@ -65,9 +72,9 @@ const Home = () => {
                             </span>
                         </div>
                         <div className="options">
-                            <button className="btn primary-btn">Hire Me</button>
+                            <button className="btn primary-btn me-3">Hire Me</button>
 
-                            <a href="FinalResume.pdf" download="Final Resume.pdf"><button className="btn primary-btn">Get Resume</button></a>
+                            <a target="_blank" href="https://drive.google.com/file/d/1vp6U5XNzyEoZW317hAaOYe6fK4Bhx1lP/view" download="Final Resume.pdf"><button className="btn primary-btn">Get Resume</button></a>
                         </div>
                     </div>
                     <div>

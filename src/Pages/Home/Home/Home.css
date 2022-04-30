@@ -38,7 +38,7 @@
   font-weight: 700;
   background-color: midnightblue;
   border-radius: 10px;
-  margin: 0 15px;
+  margin: 0;
 }
 .primary-btn:hover {
   color: black;

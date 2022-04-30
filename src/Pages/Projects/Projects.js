@@ -2,6 +2,7 @@ import React, { useEffect } from 'react';
 import './Projects.css';
 import Aos from 'aos';
 import 'aos/dist/aos.css';
+import Typical from 'react-typical';
 import { Link } from 'react-router-dom';
 
 const Projects = () => {
@@ -12,7 +13,17 @@ const Projects = () => {
     return (
         <div className="project-section" id="project">
             <div className="container p-4">
-                <h1 className="p-5 text-center text-white">My Projects</h1>
+            <h1 class='d-flex justify-content-center pt-5 pb-5 fw-bold text-white'>My&nbsp;  <Typical
+                                        loop={Infinity}
+                                        steps={[
+                                            "Projects",
+                                            2000,
+                                            "Projects",
+                                            2000,
+                                            "Projects",
+                                            2000,
+                                        ]}
+                                    ></Typical></h1>
                 <div className="row row-cols-1 row-cols-md-3 g-4">
                     <div className="col ">
                         <div data-aos="fade-up" className="card bg-dark h-100 p-2">

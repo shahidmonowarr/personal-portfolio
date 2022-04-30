@@ -1,6 +1,7 @@
 import Aos from 'aos';
 import React, { useEffect } from 'react';
 import { Col, Container, ProgressBar, Row } from 'react-bootstrap';
+import Typical from 'react-typical';
 import './Skills.css';
 
 const Skills = () => {
@@ -10,8 +11,18 @@ const Skills = () => {
     return (
         <div className="my-skills">
             <Container>
-                <div className="px-2 text-center">
-                    <h1 className="fs2 mt-5 mb-2 text-white bold ">My Skills!</h1>
+                <div className="px-2 text-center pb-3">
+                <h1 class='d-flex justify-content-center pt-5 pb-5 fw-bold text-white'>My&nbsp;  <Typical
+                                        loop={Infinity}
+                                        steps={[
+                                            "Skills",
+                                            2000,
+                                            "Skills",
+                                            2000,
+                                            "Skills",
+                                            2000,
+                                        ]}
+                                    ></Typical></h1>
                     <p className="text-white">
                         I am expertise on web development in this skills.
                     </p>

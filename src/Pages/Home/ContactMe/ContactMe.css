@@ -9,7 +9,7 @@
 }
 
 .contact_title{
-    color: darkorange;
+    color: rgb(234, 229, 222);
     text-align: center;
     font-size: 1.5rem;
     margin-bottom: 1.5rem;
@@ -44,7 +44,8 @@
 
 .contact_button{
     text-decoration: none;
-    color:  hsl(31, 100%, 70%);
+    color:  hsl(31, 83%, 47%);
+    font-weight: 700;
     font-size: .813rem;
     display: flex;
     align-items: center;

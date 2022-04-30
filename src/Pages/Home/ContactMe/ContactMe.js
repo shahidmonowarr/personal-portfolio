@@ -2,6 +2,7 @@ import React, { useEffect } from 'react';
 import emailjs from 'emailjs-com';
 import Aos from 'aos';
 import 'aos/dist/aos.css';
+import Typical from 'react-typical';
 import './ContactMe.css'
 
 const ContactMe = () => {
@@ -23,7 +24,17 @@ const ContactMe = () => {
         <div className="container" id="contact">
 
 
-            <h1 class='text-white text-center p-4'>CONTACT ME</h1>
+<h1 class='d-flex justify-content-center pt-5 pb-5 fw-bold text-white'>Contact&nbsp;  <Typical
+                                        loop={Infinity}
+                                        steps={[
+                                            "Me",
+                                            2000,
+                                            "Me",
+                                            2000,
+                                            "Me",
+                                            2000,
+                                        ]}
+                                    ></Typical></h1>
             <div className='contact_container row '>
                 <div className='contact_content col-md-6'>
                     <h3 className='contact_title'>Talk to me</h3>
