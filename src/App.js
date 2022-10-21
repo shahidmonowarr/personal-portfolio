@@ -11,6 +11,7 @@ import Pharma from './Pages/Pharma/Pharma';
 import Travel from './Pages/Travel/Travel';
 import Foodsense from './Pages/Foodsense/Foodsense';
 import BackToTop from './Pages/BackToTop/BackToTop';
+import TechSpecter from './Pages/TechSpecter/TechSpecter';
 
 function App() {
   return (
@@ -26,6 +27,9 @@ function App() {
         </Route>
         <Route path="/blogs">
           <Blogs></Blogs>
+        </Route>
+        <Route path="/techSpecter">
+          <TechSpecter></TechSpecter>
         </Route>
         <Route path="/bike">
           <Bike></Bike>

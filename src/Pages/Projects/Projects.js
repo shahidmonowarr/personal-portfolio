@@ -27,6 +27,28 @@ const Projects = () => {
                 <div className="row row-cols-1 row-cols-md-3 g-4">
                     <div className="col ">
                         <div data-aos="fade-up" className="card bg-dark h-100 p-2">
+                            <div className='box box0'></div>
+                            <div className="card-body">
+                                <h5 className="card-title text-light">Tech Specter</h5>
+                                <p className="card-text text-light">Tech Specter is an Agency Management responsive website</p>
+                                <hr />
+                                <a target="_blank" className="text-info pe-5  text-decoration-none" href="https://github.com/shahidmonowarr/tech-specter-client">
+                                    <span ><i class="fab fa-github profile-icon"></i>Github</span>
+                                </a>
+                                <a target="_blank" className=" ps-2 text-info text-decoration-none" href="https://agency-97aa4.web.app/">
+                                    <span ><i class="fab fa-github profile-icon"></i>Live site</span>
+                                </a>
+                                <hr />
+                                <Link to='/techSpecter'>
+                                    <button className='details-btn'>Details</button>
+                                </Link>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div className="col ">
+                        <div data-aos="fade-up" className="card bg-dark h-100 p-2">
                             <div className='box box1'></div>
                             <div className="card-body">
                                 <h5 className="card-title text-light">Bike Shop</h5>
