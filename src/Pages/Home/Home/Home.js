@@ -1,15 +1,16 @@
-import React, { useEffect } from 'react';
-import Typical from 'react-typical';
-import './Home.css';
-import profile from '../../../images/profile.png';
-import ContactMe from '../ContactMe/ContactMe';
-import Projects from '../../Projects/Projects';
-import Header from '../../../Shared/Header/Header';
-import AboutMe from '../AboutMe/AboutMe';
 import Aos from 'aos';
 import 'aos/dist/aos.css';
-import Skills from '../../Skills/Skills';
+import React, { useEffect } from 'react';
+import Typical from 'react-typical';
+import profile from '../../../images/profile.png';
 import Footer from '../../../Shared/Footer/Footer';
+import Header from '../../../Shared/Header/Header';
+import Education from '../../Education/Education';
+import Projects from '../../Projects/Projects';
+import Skills from '../../Skills/Skills';
+import AboutMe from '../AboutMe/AboutMe';
+import ContactMe from '../ContactMe/ContactMe';
+import './Home.css';
 
 const Home = () => {
     useEffect(() => {
@@ -74,7 +75,7 @@ const Home = () => {
                         <div className="options">
                             <button className="btn primary-btn me-3">Hire Me</button>
 
-                            <a target="_blank" href="https://drive.google.com/file/d/1vp6U5XNzyEoZW317hAaOYe6fK4Bhx1lP/view" download="Final Resume.pdf"><button className="btn primary-btn">Get Resume</button></a>
+                            <a target="_blank" href="https://drive.google.com/file/d/1vp6U5XNzyEoZW317hAaOYe6fK4Bhx1lP/view" download="Final Resume.pdf" rel="noreferrer"><button className="btn primary-btn">Get Resume</button></a>
                         </div>
                     </div>
                     <div>
@@ -87,6 +88,7 @@ const Home = () => {
             <Projects></Projects>
             <Skills></Skills>
             <AboutMe></AboutMe>
+            <Education></Education>
             <ContactMe></ContactMe>
             <Footer></Footer>
         </div>
