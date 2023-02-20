@@ -1,4 +1,2 @@
-# Getting Started with Create React App
-
-This is [My Portfolio](https://shahidportfolio.netlify.app/).
+## Visit My Personal Website - [Shahid Portfolio](https://shahidportfolio.netlify.app/).
 
