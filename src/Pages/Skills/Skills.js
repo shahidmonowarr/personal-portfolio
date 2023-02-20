@@ -50,7 +50,7 @@ const Skills = () => {
                             <ProgressBar animated now={75} label={`${75}%`} />
                         </div>
                         <div className="my-progress">
-                            <h5 className="text-white">React-Bootstrap</h5>
+                            <h5 className="text-white">JWT Token</h5>
                             <ProgressBar animated now={70} label={`${70}%`} />
                         </div>
                     </Col>
