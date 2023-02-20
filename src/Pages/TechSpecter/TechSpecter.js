@@ -72,15 +72,15 @@ const TechSpecter = () => {
                             <div style={{ marginBottom: "20px" }}>
                             </div>
                             <div className="details">
-                                <a target="_blank" href="https://agency-97aa4.web.app/">
+                                <a target="_blank" href="https://agency-97aa4.web.app/" rel="noreferrer">
                                     <button className="desBtn btn me-2 btn-sm">Live site</button>
                                 </a>
-                                <a target="_blank" href="https://github.com/shahidmonowarr/tech-specter-client">
+                                <a target="_blank" href="https://github.com/shahidmonowarr/tech-specter-client" rel="noreferrer">
                                     <button className="desBtn btn me-2 btn-sm">
                                         Client code
                                     </button>
                                 </a>
-                                <a target="_blank" href="https://github.com/shahidmonowarr/tech-specter-server">
+                                <a target="_blank" href="https://github.com/shahidmonowarr/tech-specter-server" rel="noreferrer">
                                     <button className="desBtn btn me-2 btn-sm">
                                         Server code
                                     </button>
@@ -123,7 +123,7 @@ orders.
                                         Context API
                                     </button>
                                     <button className="techBtn btn">
-                                        JWT
+                                        JWT token
                                     </button>
                                     <button className="techBtn btn">
                                         Node JS
