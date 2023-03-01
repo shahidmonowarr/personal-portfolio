@@ -12,7 +12,7 @@ const AboutMe = () => {
     return (
         <div className='about-section text-start' id='about'>
             <div className='container p-5'>
-                <h1 class='d-flex justify-content-center pt-5 pb-5 fw-bold text-white'>About&nbsp;  <Typical
+                <h1 className='d-flex justify-content-center pt-5 pb-5 fw-bold text-white'>About&nbsp;  <Typical
                                         loop={Infinity}
                                         steps={[
                                             "Me",
@@ -30,24 +30,24 @@ const AboutMe = () => {
                     <div data-aos="fade-left"
                         className="col-lg-6 d-flex text-center justify-content-center">
                         <div>
-                            <p class="fs-5 text-white text-start">My name is Md. Shahid Monowar, I'm 22 years old, I live in Dhaka.  I am currently studying at Daffodil International University. I've also been studying a lot on my own to learn ne technologies and skills. <br></br><br></br> I started as a front-end web developer in 2021. I am proficient with HTML5, CSS3, Bootstrap, MUI, Tailwind CSS, Daisy UI ES6, JavaScript, React JS, and also NodeJS, ExpressJS, MongoDB, JWT. As a developer, I love taking challenges and love being part of the solution.
+                            <p className="fs-5 text-white text-start">My name is Md. Shahid Monowar, I'm 22 years old, I live in Dhaka.  I am currently studying at Daffodil International University. I've also been studying a lot on my own to learn ne technologies and skills. <br></br><br></br> I started as a front-end web developer in 2021. I am proficient with HTML5, CSS3, Bootstrap, MUI, Tailwind CSS, Daisy UI ES6, JavaScript, React JS, and also NodeJS, ExpressJS, MongoDB, JWT. As a developer, I love taking challenges and love being part of the solution.
                             </p>
                             
                             <div className='text-start my-2'>
                                 <a className="p-1 fs-4 text-white" href="https://www.facebook.com/profile.php?id=100008694737634">
-                                    <i class="fab fa-facebook-square"></i>
+                                    <i className="fab fa-facebook-square"></i>
                                 </a>
                                 <a className="p-1 fs-4 text-white" href="https://www.linkedin.com/in/shahid-monowar-/">
-                                    <i class="fab fa-linkedin"></i>
+                                    <i className="fab fa-linkedin"></i>
                                 </a>
                                 <a className="p-1 fs-4 text-white" href="https://github.com/shahidmonowarr">
-                                    <i class="fab fa-github"></i>
+                                    <i className="fab fa-github"></i>
                                 </a>
                                 <a className="p-1 fs-4 text-white" href="https://t.me/shahidmonowar">
-                                    <i class="fab fa-telegram"></i>
+                                    <i className="fab fa-telegram"></i>
                                 </a>
                                 <a className="p-1 fs-4 text-white" href="https://twitter.com/ShahidMonowar">
-                                    <i class="fab fa-twitter"></i>
+                                    <i className="fab fa-twitter"></i>
                                 </a>
                             </div>
                             <div className="text-start ms-0"><a target="_blank" href="https://drive.google.com/file/d/1vp6U5XNzyEoZW317hAaOYe6fK4Bhx1lP/view" download="Final Resume.pdf" rel="noreferrer"><button className="btn primary-btn">Get Resume</button></a>

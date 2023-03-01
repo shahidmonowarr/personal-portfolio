@@ -1,9 +1,9 @@
-import React, { useEffect } from 'react';
-import emailjs from 'emailjs-com';
 import Aos from 'aos';
 import 'aos/dist/aos.css';
+import emailjs from 'emailjs-com';
+import React, { useEffect } from 'react';
 import Typical from 'react-typical';
-import './ContactMe.css'
+import './ContactMe.css';
 
 const ContactMe = () => {
     const sendEmail = (e) => {
@@ -24,7 +24,7 @@ const ContactMe = () => {
         <div className="container" id="contact">
 
 
-<h1 class='d-flex justify-content-center pt-5 pb-5 fw-bold text-white'>Contact&nbsp;  <Typical
+<h1 className='d-flex justify-content-center pt-5 pb-5 fw-bold text-white'>Contact&nbsp;  <Typical
                                         loop={Infinity}
                                         steps={[
                                             "Me",
@@ -41,28 +41,28 @@ const ContactMe = () => {
 
                     <div className='contact_info'>
                         <div data-aos="fade-up" className='contact_card'>
-                            <i class='bx bx-mail-send contact_card-icon'></i>
+                            <i className='bx bx-mail-send contact_card-icon'></i>
                             <h3 className="contact_card-title">Email</h3>
                             <span className="contact_card-data">shahidmonowar.cse@gmail.com</span>
 
-                            <a href="mailto: shahidmonowar.cse@gmail.com" target="_blank" className='contact_button'>
-                                Write me <i class='bx bx-right-arrow-alt contact_button-icon' ></i></a>
+                            <a href="mailto: shahidmonowar.cse@gmail.com" target="_blank" className='contact_button' rel="noreferrer">
+                                Write me <i className='bx bx-right-arrow-alt contact_button-icon' ></i></a>
                         </div>
                         <div data-aos="fade-up" className='contact_card'>
-                            <i class='bx bxl-telegram contact_card-icon'></i>
+                            <i className='bx bxl-telegram contact_card-icon'></i>
                             <h3 className="contact_card-title">Telegram</h3>
                             <span className="contact_card-data">shahidmonowar</span>
 
-                            <a href="https://t.me/shahidmonowar" target="_blank" className='contact_button'>
-                                Write me <i class='bx bx-right-arrow-alt contact_button-icon' ></i></a>
+                            <a href="https://t.me/shahidmonowar" target="_blank" className='contact_button' rel="noreferrer">
+                                Write me <i className='bx bx-right-arrow-alt contact_button-icon' ></i></a>
                         </div>
                         <div data-aos="fade-up" className='contact_card'>
-                            <i class='bx bxl-messenger contact_card-icon'></i>
+                            <i className='bx bxl-messenger contact_card-icon'></i>
                             <h3 className="contact_card-title">Messenger</h3>
                             <span className="contact_card-data">m.me/mdshahidmonowar</span>
 
-                            <a href="https://m.me/mdshahidmonowar" target="_blank" className='contact_button'>
-                                Write me <i class='bx bx-right-arrow-alt contact_button-icon' ></i></a>
+                            <a href="https://m.me/mdshahidmonowar" target="_blank" className='contact_button' rel="noreferrer">
+                                Write me <i className='bx bx-right-arrow-alt contact_button-icon' ></i></a>
                         </div>
                     </div>
                 </div>

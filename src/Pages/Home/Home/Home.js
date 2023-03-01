@@ -27,19 +27,19 @@ const Home = () => {
                         <div className="column">
                             <div >
                                 <a className="p-1 fs-4 text-white" href="https://www.facebook.com/profile.php?id=100008694737634">
-                                    <i class="fab fa-facebook-square"></i>
+                                    <i className="fab fa-facebook-square"></i>
                                 </a>
                                 <a className="p-1 fs-4 text-white" href="https://www.linkedin.com/in/shahid-monowar-/">
-                                    <i class="fab fa-linkedin"></i>
+                                    <i className="fab fa-linkedin"></i>
                                 </a>
                                 <a className="p-1 fs-4 text-white" href="https://github.com/shahidmonowarr">
-                                    <i class="fab fa-github"></i>
+                                    <i className="fab fa-github"></i>
                                 </a>
                                 <a className="p-1 fs-4 text-white" href="https://t.me/shahidmonowar">
-                                    <i class="fab fa-telegram"></i>
+                                    <i className="fab fa-telegram"></i>
                                 </a>
                                 <a className="p-1 fs-4 text-white" href="https://twitter.com/ShahidMonowar">
-                                    <i class="fab fa-twitter"></i>
+                                    <i className="fab fa-twitter"></i>
                                 </a>
                             </div>
                         </div>

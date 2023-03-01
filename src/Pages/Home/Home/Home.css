@@ -3,9 +3,8 @@
   align-items: center;
   text-align: center;
   justify-content: center;
-  height: 10%;
   min-height: fit-content;
-  height: 70vh;
+  height: auto;
 }
 .home-parent {
   display: flex;

@@ -61,10 +61,10 @@ const Travel = () => {
                             <div style={{ marginBottom: "20px" }}>
                             </div>
                             <div className="details">
-                                <a target="_blank" href="https://travel-booking-website-b1db8.web.app/">
+                                <a target="_blank" href="https://travel-booking-website-b1db8.web.app/" rel="noreferrer">
                                     <button className="desBtn btn me-2 btn-sm">Live site</button>
                                 </a>
-                                <a target="_blank" href="https://github.com/shahidmonowarr/Travel-booking-website-client-side">
+                                <a target="_blank" href="https://github.com/shahidmonowarr/Travel-booking-website-client-side" rel="noreferrer">
                                     <button className="desBtn btn me-2 btn-sm">
                                         Client code
                                     </button>
@@ -72,14 +72,14 @@ const Travel = () => {
                                 <div className="description mt-4">
                                     <h4 style={{ color: "#2c3e50" }}>Description</h4>
                                     <p>
-                                        <i class="far fa-dot-circle"></i> Travel Mate is a full-stack and responsive travel booking site for travelers.
+                                        <i className="far fa-dot-circle"></i> Travel Mate is a full-stack and responsive travel booking site for travelers.
                                     </p>
                                     <p>
-                                        <i class="far fa-dot-circle"></i> Users can check their desired travel location, cost of the package and can book their particular
+                                        <i className="far fa-dot-circle"></i> Users can check their desired travel location, cost of the package and can book their particular
                                         package from this website.
                                     </p>
                                     <p>
-                                        <i class="far fa-dot-circle"></i> The authentication system of Travel Mate is firebase google login authentication.
+                                        <i className="far fa-dot-circle"></i> The authentication system of Travel Mate is firebase google login authentication.
                                     </p>
                                 </div>
                                 <div className="technology">

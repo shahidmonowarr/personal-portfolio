@@ -1,10 +1,10 @@
 import React from 'react';
 import { Col, Container, Row } from 'react-bootstrap';
 import Slider from 'react-slick';
-import Header from '../../Shared/Header/Header';
-import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import './Pharma.css'
+import "slick-carousel/slick/slick.css";
+import Header from '../../Shared/Header/Header';
+import './Pharma.css';
 
 const Pharma = () => {
     var settings = {
@@ -64,10 +64,10 @@ const Pharma = () => {
                             <div style={{ marginBottom: "20px" }}>
                             </div>
                             <div className="details">
-                                <a target="_blank" href="https://medipharma-health-care.web.app/">
+                                <a target="_blank" href="https://medipharma-health-care.web.app/" rel="noreferrer">
                                     <button className="desBtn btn me-2 btn-sm">Live site</button>
                                 </a>
-                                <a target="_blank" href="https://github.com/shahidmonowarr/Medi-pharma">
+                                <a target="_blank" href="https://github.com/shahidmonowarr/Medi-pharma" rel="noreferrer">
                                     <button className="desBtn btn me-2 btn-sm">
                                         Github code
                                     </button>
@@ -75,14 +75,14 @@ const Pharma = () => {
                                 <div className="description mt-4">
                                     <h4 >Description</h4>
                                     <p>
-                                        <i class="far fa-dot-circle"></i> Medi Pharma is a responsive e-medicine website.
+                                        <i className="far fa-dot-circle"></i> Medi Pharma is a responsive e-medicine website.
                                     </p>
                                     <p>
-                                        <i class="far fa-dot-circle"></i> Users can find their medicine, vaccine, medical consultation, and doctor receipt from this
+                                        <i className="far fa-dot-circle"></i> Users can find their medicine, vaccine, medical consultation, and doctor receipt from this
                                         website.
                                     </p>
                                     <p>
-                                        <i class="far fa-dot-circle"></i> The main features of Medi Pharma are firebase email password and google login
+                                        <i className="far fa-dot-circle"></i> The main features of Medi Pharma are firebase email password and google login
                                         authentication.
                                     </p>
                                 </div>

@@ -1,10 +1,10 @@
 import React from 'react';
 import { Col, Container, Row } from 'react-bootstrap';
 import Slider from 'react-slick';
-import './Bike.css';
-import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
+import "slick-carousel/slick/slick.css";
 import Header from '../../Shared/Header/Header';
+import './Bike.css';
 
 const Bike = () => {
     var settings = {
@@ -64,10 +64,10 @@ const Bike = () => {
                             <div style={{ marginBottom: "20px" }}>
                             </div>
                             <div className="details">
-                                <a target="_blank" href="https://bike-store-fdfe8.web.app/">
+                                <a target="_blank" href="https://bike-store-fdfe8.web.app/" rel="noreferrer">
                                     <button className="desBtn btn me-2 btn-sm">Live site</button>
                                 </a>
-                                <a target="_blank" href="https://github.com/shahidmonowarr/Bike-store-website-client-side">
+                                <a target="_blank" href="https://github.com/shahidmonowarr/Bike-store-website-client-side" rel="noreferrer">
                                     <button className="desBtn btn me-2 btn-sm">
                                         Client code
                                     </button>
@@ -75,14 +75,14 @@ const Bike = () => {
                                 <div className="description mt-4">
                                     <h4 style={{ color: "#2c3e50" }}>Description</h4>
                                     <p>
-                                        <i class="far fa-dot-circle"></i> Bike Zone is a full-stack and responsive website for bike lovers.
+                                        <i className="far fa-dot-circle"></i> Bike Zone is a full-stack and responsive website for bike lovers.
                                     </p>
                                     <p>
-                                        <i class="far fa-dot-circle"></i> Users can order different types of bikes and also can see detailed info on bikes from the
+                                        <i className="far fa-dot-circle"></i> Users can order different types of bikes and also can see detailed info on bikes from the
                                         website.
                                     </p>
                                     <p>
-                                        <i class="far fa-dot-circle"></i> The dashboard is available for both the User and Admin. Users can see their own order list and
+                                        <i className="far fa-dot-circle"></i> The dashboard is available for both the User and Admin. Users can see their own order list and
                                         also can cancel an order. Admin can add an admin, manage product delete or update and can
                                         confirm an order.
                                     </p>
@@ -90,9 +90,7 @@ const Bike = () => {
                                 <div className="technology">
                                     <h4 style={{ color: "#2c3e50", marginBottom: "15px" }}>
                                         Technology
-                                    </h4><button className="techBtn btn">
-                                        HTML5
-                                    </button>
+                                    </h4>
                                     <button className="techBtn btn">
                                         CSS3
                                     </button>
@@ -118,7 +116,7 @@ const Bike = () => {
                                         Express js
                                     </button>
                                     <button className="techBtn btn">
-                                        Heroku
+                                        Render
                                     </button>
                                 </div>
                             </div>

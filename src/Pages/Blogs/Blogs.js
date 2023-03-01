@@ -8,10 +8,10 @@ const Blogs = () => {
     }, [])
     return (
         <div>
-            <div class='text-center'>
+            <div className='text-center'>
                 <h1 className='text-center'>Blogs coming soon</h1>
                 <Link to='/'>
-                    <button class='primary'>Go To Home</button>
+                    <button className='primary'>Go To Home</button>
                 </Link>
             </div>
         </div>

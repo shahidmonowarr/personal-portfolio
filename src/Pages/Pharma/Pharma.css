@@ -2,5 +2,6 @@
     background: #7F00FF; 
     background: -webkit-linear-gradient(to right, #240b27, #26113b); 
     background: linear-gradient(to right, #231425, #300758);
-    height: 120vh;
+    height: auto;
+    padding-bottom: 5vh;
 }

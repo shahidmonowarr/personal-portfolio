@@ -12,7 +12,7 @@ const Education = () => {
         <div>
             <div className="project-section" id="project">
             <div className="container p-4">
-            <h1 class='d-flex justify-content-center pt-5 pb-5 fw-bold text-white'>My&nbsp;  <Typical
+            <h1 className='d-flex justify-content-center pt-5 pb-5 fw-bold text-white'>My&nbsp;  <Typical
                                         loop={Infinity}
                                         steps={[
                                             "Education",

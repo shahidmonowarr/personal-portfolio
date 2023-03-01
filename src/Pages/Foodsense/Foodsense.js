@@ -75,10 +75,10 @@ const Foodsense = () => {
                             <div style={{ marginBottom: "20px" }}>
                             </div>
                             <div className="details">
-                                <a target="_blank" href="https://foodsense-c7769.web.app/">
+                                <a target="_blank" href="https://foodsense-c7769.web.app/" rel="noreferrer">
                                     <button className="desBtn btn me-2 btn-sm">Live site</button>
                                 </a>
-                                <a target="_blank" href="https://github.com/shahidmonowarr/foodsense-client-side">
+                                <a target="_blank" href="https://github.com/shahidmonowarr/foodsense-client-side" rel="noreferrer">
                                     <button className="desBtn btn me-2 btn-sm">
                                         Client code
                                     </button>
@@ -86,14 +86,14 @@ const Foodsense = () => {
                                 <div className="description mt-4">
                                     <h4 style={{ color: "#2c3e50" }}>Description</h4>
                                     <p>
-                                        <i class="far fa-dot-circle"></i> Food Sense is a full-stack and responsive food delivery site for food lovers.
+                                        <i className="far fa-dot-circle"></i> Food Sense is a full-stack and responsive food delivery site for food lovers.
                                     </p>
                                     <p>
-                                        <i class="far fa-dot-circle"></i> Users can check their desired food, cost of that food and can book their particular
+                                        <i className="far fa-dot-circle"></i> Users can check their desired food, cost of that food and can book their particular
                                         food from this website.
                                     </p>
                                     <p>
-                                        <i class="far fa-dot-circle"></i> The authentication system of Food Sense is firebase google login authentication.
+                                        <i className="far fa-dot-circle"></i> The authentication system of Food Sense is firebase google login authentication.
                                     </p>
                                 </div>
                                 <div className="technology">

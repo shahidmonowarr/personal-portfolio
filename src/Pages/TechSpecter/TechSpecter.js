@@ -88,17 +88,17 @@ const TechSpecter = () => {
                                 <div className="description mt-4">
                                     <h4 style={{ color: "#2c3e50" }}>Description</h4>
                                     <p>
-                                        <i class="far fa-dot-circle"></i> Tech Specter is an Organization Management Full Stack and responsive website.
+                                        <i className="far fa-dot-circle"></i> Tech Specter is an Organization Management Full Stack and responsive website.
                                     </p>
                                     <p>
-                                        <i class="far fa-dot-circle"></i> Users can purchase different types of courses, can booked travel, can read different
+                                        <i className="far fa-dot-circle"></i> Users can purchase different types of courses, can booked travel, can read different
 types of blogs also can request donors for blood.
                                     </p>
                                     <p>
-                                        <i class="far fa-dot-circle"></i> Dashboard is available for both user and admin.
+                                        <i className="far fa-dot-circle"></i> Dashboard is available for both user and admin.
                                     </p>
                                     <p>
-                                        <i class="far fa-dot-circle"></i> Payment method is included. Users can view and delete their purchases or bookings
+                                        <i className="far fa-dot-circle"></i> Payment method is included. Users can view and delete their purchases or bookings
 and can add reviews. Admin can add an admin, delete or update services, and approve
 orders.
                                     </p>

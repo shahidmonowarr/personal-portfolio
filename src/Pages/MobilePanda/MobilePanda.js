@@ -9,14 +9,14 @@ const MobilePanda = () => {
     infinite: true,
     speed: 500,
     slidesToShow: 1,
-    slidesToScroll: 1,
+    slidesToScroll: 1, 
   };
   return (
     <div className="details-section">
       <Header></Header>
       <Container className="text-white  pt-5">
         <Row>
-          <Col xs={12} md={6} lg={5} style={{ padding: "0 40px 30px 40px" }}>
+          <Col xs={12} md={8} lg={7} style={{ padding: "0 40px 30px 40px" }}>
             <h3>Screenshots</h3>
             <Slider {...settings}>
               <div>
@@ -24,6 +24,7 @@ const MobilePanda = () => {
                   style={{
                     width: "100%",
                     border: "2px solid #e67e22",
+                    height: "100%",
                   }}
                   src="https://i.ibb.co/cymbRbT/admin-dashboard-mobile-panda-web-app.png
                                     "
@@ -81,7 +82,7 @@ const MobilePanda = () => {
               </div>
             </Slider>
           </Col>
-          <Col xs={12} md={6} lg={7}>
+          <Col xs={12} md={4} lg={5}>
             <div className="project-details">
               <h3>Overview</h3>
               <div style={{ marginBottom: "20px" }}></div>
@@ -105,19 +106,19 @@ const MobilePanda = () => {
                 <div className="description mt-4">
                   <h4>Description</h4>
                   <p>
-                    <i class="far fa-dot-circle"></i> Users can view and
+                    <i className="far fa-dot-circle"></i> Users can view and
                     purchase different type of Mobiles.
                   </p>
                   <p>
-                    <i class="far fa-dot-circle"></i> Dashboard is available for
+                    <i className="far fa-dot-circle"></i> Dashboard is available for
                     both user and admin.
                   </p>
                   <p>
-                    <i class="far fa-dot-circle"></i> User can view and delete
+                    <i className="far fa-dot-circle"></i> User can view and delete
                     their purchases and can add reviews.
                   </p>
                   <p>
-                    <i class="far fa-dot-circle"></i> Admin can add an admin,
+                    <i className="far fa-dot-circle"></i> Admin can add an admin,
                     delete or update services and can approve order.
                   </p>
                 </div>
