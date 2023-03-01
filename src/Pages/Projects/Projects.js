@@ -1,7 +1,7 @@
 import Aos from "aos";
 import "aos/dist/aos.css";
 import React, { useEffect } from "react";
-import { Button, ButtonGroup, Container, Row } from "react-bootstrap";
+import { Button, ButtonGroup, Container, Pagination, Row } from "react-bootstrap";
 import Typical from "react-typical";
 import "./Projects.css";
 import SingleProject from "./SingleProject";
@@ -11,7 +11,7 @@ const Projects = () => {
   const [loading, setLoading] = React.useState(true);
   const [error, setError] = React.useState(null);
   const [selectedCategory, setSelectedCategory] = React.useState(null);
-  const count = projects.length;
+  const [currentPage, setCurrentPage] = React.useState(1);
   
 
   useEffect(() => {
@@ -31,12 +31,23 @@ const Projects = () => {
     Aos.init({ duration: 1500 });
   }, []);
 
-  const filterProjects = selectedCategory
+  const filteredProjects = selectedCategory
     ? projects.filter((project) => project.category === selectedCategory)
     : projects;
 
+    const itemsPerPage = 6;
+    const totalPages = Math.ceil(filteredProjects.length / itemsPerPage);
+    const start = (currentPage - 1) * itemsPerPage;
+    const end = start + itemsPerPage;
+    const currentProjects = filteredProjects.slice(start, end);
+
   const handleCategorySelect = (category) => {
     setSelectedCategory(category);
+    setCurrentPage(1);
+  };
+
+  const handlePageChange = (pageNumber) => {
+    setCurrentPage(pageNumber);
   };
 
   return (
@@ -96,10 +107,23 @@ const Projects = () => {
           </ButtonGroup>
         </Container>
         <Row className="">
-          {filterProjects.map((project) => (
+          {currentProjects.map((project) => (
             <SingleProject key={project.id} project={project}></SingleProject>
           ))}
         </Row>
+        <div className="d-flex justify-content-center">
+          <Pagination className="mt-3">
+            {Array.from({ length: totalPages }, (_, index) => (
+              <Pagination.Item
+                key={index}
+                active={index + 1 === currentPage}
+                onClick={() => handlePageChange(index + 1)}
+              >
+                {index + 1}
+              </Pagination.Item>
+            ))}
+          </Pagination>
+        </div>
       </div>
     </div>
   );
