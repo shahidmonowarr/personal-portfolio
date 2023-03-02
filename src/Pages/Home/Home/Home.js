@@ -14,14 +14,14 @@ import './Home.css';
 
 const Home = () => {
     useEffect(() => {
-        Aos.init({ duration: 3000 });
+        Aos.init({ duration: 1500 });
     }, []);
     
 
     return (
         <div className="project-section" id="home">
             <Header></Header>
-            <div className="home-container">
+            <div className="home-container pt-5">
                 <div className="home-parent">
                     <div data-aos="fade-down-right" className="details">
                         <div className="column">
@@ -79,7 +79,7 @@ const Home = () => {
                         </div>
                     </div>
                     <div>
-                        <div data-aos="fade-down-left" className="profile-picture">
+                        <div data-aos="fade-down-left" className="profile-picture pb-5">
                             <img src={profile} alt="" />
                         </div>
                     </div>

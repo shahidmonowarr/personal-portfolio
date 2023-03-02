@@ -22,7 +22,8 @@ const SingleProject = ({project}) => {
                   rel="noreferrer"
                 >
                   <span>
-                    <i className="fab fa-github profile-icon"></i>Github
+                    {/* <i className="fab fa-github profile-icon"></i> */}
+                    Github
                   </span>
                 </a>
                 <Link to="/mobilePanda">
@@ -35,7 +36,8 @@ const SingleProject = ({project}) => {
                   rel="noreferrer"
                 >
                   <span>
-                    <i className="fab fa-github profile-icon"></i>Live-site
+                    {/* <i className="fab fa-github profile-icon"></i> */}
+                    Live-site
                   </span>
                 </a>
                 </div>
