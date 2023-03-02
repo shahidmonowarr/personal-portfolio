@@ -3,11 +3,11 @@ import { Card, Col } from "react-bootstrap";
 import { Link } from "react-router-dom";
 
 const SingleProject = ({ project }) => {
-  const { name, photo, desc1, githubFrontend, live } = project;
+  const { _id, name, photo, desc1, githubFrontend, live } = project;
+
   return (
     <Col className=" my-2" sm={12} md={6} lg={4}>
       <Card data-aos="fade-up" className="bg-dark h-90 p-2">
-        {/* <div style={{background:  `url(${photo})`, backgroundSize: "cover"}} className="box"></div> */}
         <div
           style={{
             backgroundImage: `url(${photo})`,
@@ -45,7 +45,7 @@ const SingleProject = ({ project }) => {
                 Github
               </span>
             </a>
-            <Link to="/mobilePanda">
+            <Link to={`/projectDetails/${_id}`}>
               <button className="details-btn me-4">Details</button>
             </Link>
             <a

@@ -1,3 +1,11 @@
+.details-section{
+    background: #7F00FF; 
+    background: -webkit-linear-gradient(to right, #240b27, #26113b); 
+    background: linear-gradient(to right, #231425, #300758);
+    height: auto;
+    padding-bottom: 5vh;
+}
+
 .project-details{
     margin-left: 40px;
 }
@@ -17,8 +25,9 @@
     font-size: 18px;
 }
 
-.description .fa-check{
+.description .fa-dot-circle{
     color: #e67e22;
+    padding-right: 4px;
 }
 
 .techBtn{
