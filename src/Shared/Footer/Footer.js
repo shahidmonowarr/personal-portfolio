@@ -2,6 +2,9 @@ import React from "react";
 import "./Footer.css";
 
 const Footer = () => {
+  const today = new Date();
+  const year = today.getFullYear();
+
   return (
     <div>
       <div className="project-section">
@@ -57,8 +60,8 @@ const Footer = () => {
             </div>
           </div>
           <hr />
-          <p className="text-center text-secondary fs-6 fw-bold pb-2">
-            <small>{"\u00a9"} 2022 all right reserved by Shahid</small>
+          <p className="text-center text-secondary fs-6 fw-bold pb-3">
+            <small>{"\u00a9"} {year} all right reserved by Shahid</small>
           </p>
         </div>
       </div>
