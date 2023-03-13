@@ -12,6 +12,7 @@ const Projects = () => {
   const [error, setError] = React.useState(null);
   const [selectedCategory, setSelectedCategory] = React.useState(null);
   const [currentPage, setCurrentPage] = React.useState(1);
+  const projectSectionRef = React.useRef(null);
   
 
   useEffect(() => {
@@ -28,7 +29,7 @@ const Projects = () => {
   }, []);
 
   useEffect(() => {
-    Aos.init({ duration: 1500 });
+    Aos.init({ duration: 1000 });
   }, []);
 
   const filteredProjects = selectedCategory
@@ -48,6 +49,7 @@ const Projects = () => {
 
   const handlePageChange = (pageNumber) => {
     setCurrentPage(pageNumber);
+    projectSectionRef.current.scrollIntoView({ behavior: 'smooth' });
   };
 
   return (
@@ -60,7 +62,7 @@ const Projects = () => {
             steps={["Projects", 2000, "Projects", 2000, "Projects", 2000]}
           ></Typical>
         </h1>
-        <Container className="mx-auto text-center">
+        <Container className="mx-auto text-center" ref={projectSectionRef}>
           <ButtonGroup className="flex-wrap" aria-label="Basic example">
             <Button
               className="mx-2 my-2 rounded-3"
