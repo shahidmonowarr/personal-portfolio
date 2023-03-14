@@ -27,11 +27,11 @@ const ContactMe = () => {
     e.target.reset();
   };
   useEffect(() => {
-    Aos.init({ duration: 1500 });
+    Aos.init({ duration: 500 });
   }, []);
   return (
     <div className="container" id="contact">
-      <h1 className="d-flex justify-content-center pt-5 pb-5 fw-bold text-white">
+      <h1 className="d-flex justify-content-center mt-5 pt-5 pb-3 fw-bold text-white">
         Contact&nbsp;{" "}
         <Typical
           loop={Infinity}
@@ -45,7 +45,7 @@ const ContactMe = () => {
           <div className="contact_info">
             <div data-aos="fade-up" className="contact_card">
               <i className="bx bx-mail-send contact_card-icon"></i>
-              <h3 className="contact_card-title">Email</h3>
+              <h4 className="contact_card-title">Email</h4>
               <span className="contact_card-data">
                 shahidmonowar.cse@gmail.com
               </span>
@@ -62,7 +62,7 @@ const ContactMe = () => {
             </div>
             <div data-aos="fade-up" className="contact_card">
               <i className="bx bxl-telegram contact_card-icon"></i>
-              <h3 className="contact_card-title">Telegram</h3>
+              <h4 className="contact_card-title">Telegram</h4>
               <span className="contact_card-data">shahidmonowar</span>
 
               <a
@@ -77,7 +77,7 @@ const ContactMe = () => {
             </div>
             <div data-aos="fade-up" className="contact_card">
               <i className="bx bxl-messenger contact_card-icon"></i>
-              <h3 className="contact_card-title">Messenger</h3>
+              <h4 className="contact_card-title">Messenger</h4>
               <span className="contact_card-data">m.me/mdshahidmonowar</span>
 
               <a
@@ -99,7 +99,7 @@ const ContactMe = () => {
           <form action="" onSubmit={sendEmail} className="contact_form">
             <div className="contact_form-div">
               <label htmlFor="" className="contact_form-tag">
-                Names
+                Full Name
               </label>
               <input
                 type="text"
@@ -129,8 +129,8 @@ const ContactMe = () => {
                 className="contact_form-input"
                 placeholder="Write your project"
                 id=""
-                cols="30"
-                rows="10"
+                cols="50"
+                rows="20"
               ></textarea>
             </div>
 
