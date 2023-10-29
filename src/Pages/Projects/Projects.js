@@ -1,7 +1,13 @@
 import Aos from "aos";
 import "aos/dist/aos.css";
 import React, { useEffect } from "react";
-import { Button, ButtonGroup, Container, Pagination, Row } from "react-bootstrap";
+import {
+  Button,
+  ButtonGroup,
+  Container,
+  Pagination,
+  Row,
+} from "react-bootstrap";
 import Typical from "react-typical";
 import "./Projects.css";
 import SingleProject from "./SingleProject";
@@ -13,14 +19,12 @@ const Projects = () => {
   const [selectedCategory, setSelectedCategory] = React.useState(null);
   const [currentPage, setCurrentPage] = React.useState(1);
   const projectSectionRef = React.useRef(null);
-  
 
   useEffect(() => {
     fetch("/fakedb.json")
       .then((res) => res.json())
       .then((data) => {
         setProjects(data);
-        console.log(data);
       })
       .catch((error) => {
         setError(error);
@@ -36,11 +40,11 @@ const Projects = () => {
     ? projects.filter((project) => project.category === selectedCategory)
     : projects;
 
-    const itemsPerPage = 6;
-    const totalPages = Math.ceil(filteredProjects.length / itemsPerPage);
-    const start = (currentPage - 1) * itemsPerPage;
-    const end = start + itemsPerPage;
-    const currentProjects = filteredProjects.slice(start, end);
+  const itemsPerPage = 6;
+  const totalPages = Math.ceil(filteredProjects.length / itemsPerPage);
+  const start = (currentPage - 1) * itemsPerPage;
+  const end = start + itemsPerPage;
+  const currentProjects = filteredProjects.slice(start, end);
 
   const handleCategorySelect = (category) => {
     setSelectedCategory(category);
@@ -49,7 +53,7 @@ const Projects = () => {
 
   const handlePageChange = (pageNumber) => {
     setCurrentPage(pageNumber);
-    projectSectionRef.current.scrollIntoView({ behavior: 'smooth' });
+    projectSectionRef.current.scrollIntoView({ behavior: "smooth" });
   };
 
   return (

@@ -7,7 +7,7 @@ const Footer = () => {
 
   return (
     <div>
-      <div className="project-section">
+      <div className="">
         <div className="container">
           <div className="row">
             <div className="col-md-12 col-sm-12">
@@ -61,7 +61,9 @@ const Footer = () => {
           </div>
           <hr />
           <p className="text-center text-secondary fs-6 fw-bold pb-3">
-            <small>{"\u00a9"} {year} all right reserved by Shahid</small>
+            <small>
+              {"\u00a9"} {year} all right reserved by Shahid
+            </small>
           </p>
         </div>
       </div>

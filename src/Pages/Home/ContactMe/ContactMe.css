@@ -17,20 +17,22 @@
 
 .contact_info{
     display: grid;
+    width: 50%;
+    margin: 0 auto;
     gap: 1rem;
 }
 
 .contact_card{
     background-color: #fff;
-    padding: 1rem;
-    border-radius: .75rem;
+    padding: .25rem;
+    border-radius: .50rem;
     text-align: center;
 }
 
 .contact_card-icon{
-    font-size: 2rem;
+    font-size: 1.75rem;
     color: hsl(0, 0%, 15%);
-    margin-bottom: .25rem;
+    margin-top: .25rem;
 }
 
 .contact_card-title, .contact_card-data{
@@ -39,7 +41,7 @@
 
 .contact_card-data{
     display: block;
-    margin-bottom: .75rem;
+    margin-bottom: .50rem;
 }
 
 .contact_button{
@@ -65,7 +67,7 @@
 
 .contact_form-div{
     position: relative;
-    margin-bottom: 2rem;
+    margin-bottom: 1.5rem;
     height: 4rem;
 }
 

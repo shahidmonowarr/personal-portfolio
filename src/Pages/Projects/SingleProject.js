@@ -30,10 +30,10 @@ const SingleProject = ({ project }) => {
           }}
         ></div>
         <div className="card-body">
-          <h5 className="card-title text-light">{name}</h5>
-          <p className="text-light">{desc1}</p>
+          <h4 className="card-title text-light">{name}</h4>
+          <p className="text-secondary">{desc1}</p>
           <hr />
-          <div className="d-flex justify-content-center">
+          <div className="d-flex justify-content-between">
             <a
               target="_blank"
               className="text-info me-5  text-decoration-none"

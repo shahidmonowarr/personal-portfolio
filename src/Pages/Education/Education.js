@@ -1,10 +1,9 @@
 import {
-  faBriefcase,
   faCalendarAlt,
   faCode,
   faGraduationCap,
   faPlus,
-  faStar
+  faStar,
 } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import Aos from "aos";
@@ -12,29 +11,29 @@ import React, { useEffect, useState } from "react";
 import Typical from "react-typical";
 import {
   VerticalTimeline,
-  VerticalTimelineElement
+  VerticalTimelineElement,
 } from "react-vertical-timeline-component";
 import "react-vertical-timeline-component/style.min.css";
 import "./Education.css";
 
 const dataExamples = [
+  // {
+  //   props: {
+  //     date: "2023 - present",
+  //     className: "vertical-timeline-element--work",
+  //     contentStyle: { background: "rgb(33, 150, 243)", color: "#fff" },
+  //     contentArrowStyle: { borderRight: "7px solid  rgb(33, 150, 243)" },
+  //     iconStyle: { background: "rgb(33, 150, 243)", color: "#fff" },
+  //     icon: <FontAwesomeIcon icon={faBriefcase} />,
+  //   },
+  //   title: "InfiniteSoftBd",
+  //   subtitle: "Dhaka, Bangladesh",
+  //   content:
+  //     "Co-Founder & Project Manager",
+  // },
   {
     props: {
-      date: "2023 - present",
-      className: "vertical-timeline-element--work",
-      contentStyle: { background: "rgb(33, 150, 243)", color: "#fff" },
-      contentArrowStyle: { borderRight: "7px solid  rgb(33, 150, 243)" },
-      iconStyle: { background: "rgb(33, 150, 243)", color: "#fff" },
-      icon: <FontAwesomeIcon icon={faBriefcase} />,
-    },
-    title: "InfiniteSoftBd",
-    subtitle: "Dhaka, Bangladesh",
-    content:
-      "Co-Founder & Project Manager",
-  },
-  {
-    props: {
-      date: "2019 - 2022",
+      date: "2019 - 2023",
       className: "vertical-timeline-element--education",
       contentStyle: { background: "rgb(233, 30, 99)", color: "#fff" },
       contentArrowStyle: { borderRight: "7px solid  rgb(233, 30, 99)" },
@@ -43,7 +42,7 @@ const dataExamples = [
     },
     title: "Daffodil International University",
     subtitle: "Dhaka, Bangladesh",
-    content: "BSc in Computer Science and Engineering with 3.70 GPA",
+    content: "BSc in Computer Science and Engineering with 3.64 GPA",
   },
   {
     props: {
@@ -57,7 +56,7 @@ const dataExamples = [
     title: "Event Management",
     subtitle: "Engineering Summit - 2023",
     content:
-      " Organized by Youth for Better Future(YBF). Was responsible for the overall coordination of the event, including the the venue, the speakers, the agenda, the volunteers, the attendees and the marketing.",
+      " Organized by Youth for Better Future(YBF). Was responsible for the overall coordination of the event, including the volunteers, the attendees and the marketing.",
   },
   {
     props: {
@@ -70,13 +69,14 @@ const dataExamples = [
     },
     title: "Complete Web Development Training",
     subtitle: "Programming Hero",
-    content: " Completed Web Development Training from Programming Hero and got a 5 star rating from the Instructor.",
+    content:
+      " Completed Web Development Training from Programming Hero and got a 5 star rating from the Instructor.",
   },
   {
     props: {
       iconStyle: { background: "rgb(16, 204, 82)", color: "#fff" },
       icon: <FontAwesomeIcon icon={faStar} />,
-    }
+    },
   },
 ];
 
@@ -85,11 +85,11 @@ const Education = () => {
     Aos.init({ duration: 3000 });
   }, []);
 
-  const [elementsToShow, setElementsToShow] = useState(2);
+  const [elementsToShow, setElementsToShow] = useState();
 
-  const loadMore = () => {
-    setElementsToShow(elementsToShow + 2);
-  };
+  // const loadMore = () => {
+  //   setElementsToShow(elementsToShow + 4);
+  // };
 
   const addButton = () => (
     <div
@@ -108,7 +108,11 @@ const Education = () => {
 
   const getTimelineElements = () =>
     dataExamples.slice(0, elementsToShow).map((element, index) => {
-      if (Object.keys(element.props).length === 2 && element.props.hasOwnProperty('iconStyle') && element.props.hasOwnProperty('icon')) {
+      if (
+        Object.keys(element.props).length === 2 &&
+        element.props.hasOwnProperty("iconStyle") &&
+        element.props.hasOwnProperty("icon")
+      ) {
         return (
           <VerticalTimelineElement
             key={index}
@@ -145,7 +149,7 @@ const Education = () => {
         {getTimelineElements()}
         {elementsToShow < dataExamples.length && (
           <VerticalTimelineElement
-            iconOnClick={loadMore}
+            // iconOnClick={loadMore}
             iconClassName="vertical-timeline-element-icon--button"
             iconStyle={{
               background: "rgb(25, 25, 122)",

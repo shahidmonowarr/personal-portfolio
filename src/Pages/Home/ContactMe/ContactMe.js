@@ -18,10 +18,10 @@ const ContactMe = () => {
       )
       .then(
         (result) => {
-        //   console.log(result.text);
+          //   console.log(result.text);
         },
         (error) => {
-        //   console.log(error.text);
+          //   console.log(error.text);
         }
       );
     e.target.reset();
@@ -129,8 +129,8 @@ const ContactMe = () => {
                 className="contact_form-input"
                 placeholder="Write your project"
                 id=""
-                cols="50"
-                rows="20"
+                cols="40"
+                rows="15"
               ></textarea>
             </div>
 
