@@ -31,12 +31,12 @@
 }
 .primary-btn {
   color: white;
-  border: 2px solid linen;
+  border: 2px solid rgb(230, 226, 222);
   padding: 10px 20px;
   font-size: 12px;
   font-weight: 700;
-  background-color: midnightblue;
-  border-radius: 10px;
+  background-color: rgb(13, 127, 194);
+  border-radius: 7px;
   margin: 0;
 }
 .primary-btn:hover {

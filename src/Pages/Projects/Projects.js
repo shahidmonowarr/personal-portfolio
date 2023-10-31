@@ -21,7 +21,7 @@ const Projects = () => {
   const projectSectionRef = React.useRef(null);
 
   useEffect(() => {
-    fetch("/fakedb.json")
+    fetch("/projectsdb.json")
       .then((res) => res.json())
       .then((data) => {
         setProjects(data);

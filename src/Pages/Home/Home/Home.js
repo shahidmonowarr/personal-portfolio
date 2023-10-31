@@ -62,7 +62,8 @@ const Home = () => {
             <div className="details-name">
               <span className="primary-text fs-3">
                 {""}
-                Hi, I'm <span className="text-danger ">Md. Shahid Monowar</span>
+                Hi, I'm{" "}
+                <span className="text-warning ">Md. Shahid Monowar</span>
               </span>
             </div>
             <div className="details-role">

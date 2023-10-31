@@ -1,4 +1,8 @@
-import { faHeadset, faLaptopCode, faTasks } from "@fortawesome/free-solid-svg-icons";
+import {
+  faHeadset,
+  faLaptopCode,
+  faTasks,
+} from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import Aos from "aos";
 import "aos/dist/aos.css";
@@ -37,41 +41,35 @@ const AboutMe = () => {
               <CardGroup className="gap-2">
                 <Card className="border-dark rounded-3">
                   <Card.Body>
-                    <h1 style={{width: "100%"}}>
-                    <FontAwesomeIcon icon={faLaptopCode} />
+                    <h1 style={{ width: "100%" }}>
+                      <FontAwesomeIcon icon={faLaptopCode} />
                     </h1>
                     <Card.Title>Experience</Card.Title>
                   </Card.Body>
                   <Card.Footer>
-                    <small className="text-muted">
-                        1+ Years
-                    </small>
+                    <small className="text-muted">1+ Years</small>
                   </Card.Footer>
                 </Card>
                 <Card className="border-dark rounded-3">
                   <Card.Body>
-                  <h1 style={{width: "100%"}}>
-                    <FontAwesomeIcon icon={faTasks} />
+                    <h1 style={{ width: "100%" }}>
+                      <FontAwesomeIcon icon={faTasks} />
                     </h1>
                     <Card.Title>Projects</Card.Title>
                   </Card.Body>
                   <Card.Footer>
-                    <small className="text-muted">
-                      5+ Completed 
-                    </small>
+                    <small className="text-muted">15+ Completed</small>
                   </Card.Footer>
                 </Card>
                 <Card className="border-dark rounded-3">
                   <Card.Body>
-                  <h1 style={{width: "100%"}}>
-                    <FontAwesomeIcon icon={faHeadset} />
+                    <h1 style={{ width: "100%" }}>
+                      <FontAwesomeIcon icon={faHeadset} />
                     </h1>
                     <Card.Title>Support</Card.Title>
                   </Card.Body>
                   <Card.Footer>
-                    <small className="text-muted">
-                      Online 24/7
-                    </small>
+                    <small className="text-muted">Online 24/7</small>
                   </Card.Footer>
                 </Card>
               </CardGroup>

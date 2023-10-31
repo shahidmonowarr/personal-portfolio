@@ -12,7 +12,7 @@ const SingleBlog = ({ blog }) => {
           style={{
             backgroundImage: `url(${image})`,
             backgroundSize: "100% auto",
-            height: "250px",
+            height: "200px",
             width: "100%",
             overflow: "hidden",
             backgroundRepeat: "no-repeat",
@@ -32,9 +32,8 @@ const SingleBlog = ({ blog }) => {
             </div>
           </div>
           <p className="text-secondary">{content.slice(0, 90)}...</p>
-          <hr />
           <Link to={`/blogDetails/${id}`}>
-            <button className="btn btn-primary">Read More</button>
+            <button className="btn primary-btn">Read More</button>
           </Link>
         </div>
       </Card>

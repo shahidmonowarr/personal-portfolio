@@ -35,9 +35,11 @@ const dataExamples = [
     props: {
       date: "2019 - 2023",
       className: "vertical-timeline-element--education",
-      contentStyle: { background: "rgb(233, 30, 99)", color: "#fff" },
-      contentArrowStyle: { borderRight: "7px solid  rgb(233, 30, 99)" },
-      iconStyle: { background: "rgb(233, 30, 99)", color: "#fff" },
+      contentStyle: { background: "rgba(239, 163, 40, 0.971)", color: "#fff" },
+      contentArrowStyle: {
+        borderRight: "7px solid  rgba(239, 163, 40, 0.971)",
+      },
+      iconStyle: { background: "rgba(239, 163, 40, 0.971)", color: "#fff" },
       icon: <FontAwesomeIcon icon={faGraduationCap} />,
     },
     title: "Daffodil International University",
@@ -48,9 +50,9 @@ const dataExamples = [
     props: {
       date: "March 03 - 2023",
       className: "vertical-timeline-element--work",
-      contentStyle: { background: "rgb(33, 150, 243)", color: "#fff" },
-      contentArrowStyle: { borderRight: "7px solid  rgb(33, 150, 243)" },
-      iconStyle: { background: "rgb(33, 150, 243)", color: "#fff" },
+      contentStyle: { background: "rgb(rgb(13, 127, 194)", color: "#fff" },
+      contentArrowStyle: { borderRight: "7px solid  rgb(rgb(13, 127, 194)" },
+      iconStyle: { background: "rgb(rgb(13, 127, 194)", color: "#fff" },
       icon: <FontAwesomeIcon icon={faCalendarAlt} />,
     },
     title: "Event Management",
@@ -62,9 +64,11 @@ const dataExamples = [
     props: {
       date: "2021 - 2022",
       className: "vertical-timeline-element--education",
-      contentStyle: { background: "rgb(233, 30, 99)", color: "#fff" },
-      contentArrowStyle: { borderRight: "7px solid  rgb(233, 30, 99)" },
-      iconStyle: { background: "rgb(233, 30, 99)", color: "#fff" },
+      contentStyle: { background: "rgba(239, 163, 40, 0.971)", color: "#fff" },
+      contentArrowStyle: {
+        borderRight: "7px solid  rgba(239, 163, 40, 0.971)",
+      },
+      iconStyle: { background: "rgba(239, 163, 40, 0.971)", color: "#fff" },
       icon: <FontAwesomeIcon icon={faCode} />,
     },
     title: "Complete Web Development Training",

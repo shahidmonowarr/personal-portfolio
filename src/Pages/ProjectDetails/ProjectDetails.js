@@ -22,7 +22,7 @@ const ProjectDetails = () => {
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    fetch("/fakedb.json")
+    fetch("/projectsdb.json")
       .then((res) => res.json())
       .then((data) => {
         const project = data.find((project) => project._id === projectId);
@@ -110,7 +110,7 @@ const ProjectDetails = () => {
                   </button>
                 </a>
                 {project.githubBackend && (
-                    <a
+                  <a
                     target="_blank"
                     href={project.githubBackend}
                     rel="noreferrer"
@@ -119,7 +119,7 @@ const ProjectDetails = () => {
                       Server code
                     </button>
                   </a>
-                  )}
+                )}
                 <div className="description mt-4">
                   <h4 style={{ color: "#2c3e50" }}>Description</h4>
                   <p>
@@ -135,9 +135,9 @@ const ProjectDetails = () => {
                   </p>
                   {project.desc4 && (
                     <p>
-                    <i className="far fa-dot-circle"></i>
-                    {project.desc4}
-                  </p>
+                      <i className="far fa-dot-circle"></i>
+                      {project.desc4}
+                    </p>
                   )}
                 </div>
                 <div className="technology">
@@ -156,24 +156,24 @@ const ProjectDetails = () => {
                   {project.tech4 && (
                     <button className="techBtn btn">{project.tech4}</button>
                   )}
-                    {project.tech5 && (
+                  {project.tech5 && (
                     <button className="techBtn btn">{project.tech5}</button>
-                    )}
-                    {project.tech6 && (
+                  )}
+                  {project.tech6 && (
                     <button className="techBtn btn">{project.tech6}</button>
-                    )}
-                    {project.tech7 && (
+                  )}
+                  {project.tech7 && (
                     <button className="techBtn btn">{project.tech7}</button>
-                    )}
-                    {project.tech8 && (
+                  )}
+                  {project.tech8 && (
                     <button className="techBtn btn">{project.tech8}</button>
-                    )}
-                    {project.tech9 && (
+                  )}
+                  {project.tech9 && (
                     <button className="techBtn btn">{project.tech9}</button>
-                    )}
-                    {project.tech10 && (
+                  )}
+                  {project.tech10 && (
                     <button className="techBtn btn">{project.tech10}</button>
-                    )}
+                  )}
                 </div>
               </div>
             </div>

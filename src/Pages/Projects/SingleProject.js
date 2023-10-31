@@ -32,11 +32,10 @@ const SingleProject = ({ project }) => {
         <div className="card-body">
           <h4 className="card-title text-light">{name}</h4>
           <p className="text-secondary">{desc1}</p>
-          <hr />
           <div className="d-flex justify-content-between">
             <a
               target="_blank"
-              className="text-info me-5  text-decoration-none"
+              className="btn primary-btn  text-decoration-none"
               href={githubFrontend}
               rel="noreferrer"
             >
@@ -46,11 +45,11 @@ const SingleProject = ({ project }) => {
               </span>
             </a>
             <Link to={`/projectDetails/${_id}`}>
-              <button className="details-btn me-4">Details</button>
+              <button className="btn primary-btn">Details</button>
             </Link>
             <a
               target="_blank"
-              className=" ms-3 text-info text-decoration-none"
+              className=" btn primary-btn text-decoration-none"
               href={live}
               rel="noreferrer"
             >
